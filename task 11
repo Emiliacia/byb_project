@@ -1,0 +1,9 @@
+string = input("Please enter a string")
+split_word= string.split()
+new_string =""
+for alternate in range(len(split_word)):
+
+    if alternate % 2 ==0:
+        new_sent +=split_word[alternate].upper()+
+
+print(f"Print string with new alternate letters is{new_sent}")

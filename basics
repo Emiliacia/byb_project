@@ -1,0 +1,8 @@
+get-pip.py
+
+import numpy
+import pandas 
+
+df = pd.read_csv('credit.cvs', delimiter= ',')
+
+print(df.head())

@@ -1,0 +1,10 @@
+
+] # remember the following when selecting what to slice :
+                        # [start : end : step]
+     # Result >> "He"
+# starting with 0 is the first letter, 12 is until when you want it to slice, 5 is every how many letters
+slice = "helloimlearninghowtocode"
+print(slice[0:12:5])
+
+
+
